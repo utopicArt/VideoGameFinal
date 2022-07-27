@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Cliff
+  - Message
+  - Text
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background 2
+    uniqueID: 1715736871
+    locked: 0
+  - name: Background 1
+    uniqueID: 3553554227
+    locked: 0
+  - name: Background
+    uniqueID: 1305299075
+    locked: 0
+  - name: Background 0
+    uniqueID: 4036021587
+    locked: 0
+  - name: Ground
+    uniqueID: 2041856147
+    locked: 0
+  - name: Foreground
+    uniqueID: 2545082965
+    locked: 0
+  - name: Characters
+    uniqueID: 4209380565
+    locked: 0
+  - name: Camera UI
+    uniqueID: 927059279
+    locked: 0
