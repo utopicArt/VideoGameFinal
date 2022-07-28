@@ -2874,6 +2874,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 604390046485916374, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 604390046485916374, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 604390046485916374, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079484957669939886, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079484957669939886, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1928645959290582250, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
       propertyPath: m_Name
       value: In Game Menu
@@ -2882,6 +2902,30 @@ PrefabInstance:
       propertyPath: playerPrefab
       value: 
       objectReference: {fileID: 867315350}
+    - target: {fileID: 6235385660328475886, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6235385660328475886, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7157643130634805687, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7157643130634805687, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7157643130634805687, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444528698689206485, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: e879e337a336d8d45add2eb98558a0ba, type: 3}
     - target: {fileID: 7730327823881179748, guid: 64f4a10cb5307f7468a069e855b25506, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -15478,7 +15522,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5518255800257880772, guid: 43d35031515d7ab4197783eb3f60f04f, type: 3}
       propertyPath: time
-      value: 320
+      value: 325
       objectReference: {fileID: 0}
     - target: {fileID: 5518255800257880772, guid: 43d35031515d7ab4197783eb3f60f04f, type: 3}
       propertyPath: jumpForce
