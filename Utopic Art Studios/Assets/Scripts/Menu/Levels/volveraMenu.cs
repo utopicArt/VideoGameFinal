@@ -11,6 +11,6 @@ public class volveraMenu : MonoBehaviour
 {
     public void volverMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(0);
     }
 }
