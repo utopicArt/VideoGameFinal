@@ -11,6 +11,7 @@ public class volveraMenu : MonoBehaviour
 {
     public void volverMenu()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
 }
