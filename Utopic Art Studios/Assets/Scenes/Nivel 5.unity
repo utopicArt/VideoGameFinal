@@ -4745,7 +4745,16 @@ MonoBehaviour:
   velocidadEscritura: 0.08
   velocidadCambio: 1
   textElements:
-  - ' '
+  - ' Felicidades Huitzil, terminaste el nivel!'
+  - "Durante tu traves\xEDa por el juego, lograste aprender sobre:"
+  - "La conspiraci\xF3n del Grito de Dolores."
+  - La tragica muerte de Hidalgo
+  - "La \xE9pica Campa\xF1a de Morelos y su resistencia ante los espa\xF1oles y la
+    promulgaci\xF3n..."
+  - "de la Constituci\xF3n de Apatzing\xE1n en 1814."
+  - "La muerte de Morelos luego de cinco a\xF1os en la guerra de Independencia de
+    M\xE9xico"
+  - Y la dura etapa de resistencia de la independencia de Mexico
   endPoint: 1
 --- !u!61 &460962901
 BoxCollider2D:
