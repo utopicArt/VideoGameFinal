@@ -52,8 +52,7 @@ public class levelController : MonoBehaviour
     public void loadLevel()
     {
         int level = PlayerPrefs.GetInt("level", 1);
-        int introductionLevel = PlayerPrefs.GetInt("intro", 0);
-        SceneManager.LoadScene((introductionLevel==0?6: level));
+        SceneManager.LoadScene(level);
     }
 
     public void mainMenu()

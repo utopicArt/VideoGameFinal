@@ -1044,6 +1044,137 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &247019606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 247019607}
+  - component: {fileID: 247019610}
+  - component: {fileID: 247019609}
+  - component: {fileID: 247019608}
+  m_Layer: 10
+  m_Name: Message Detector (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &247019607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247019606}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 23.59, y: 14.32, z: 0.16356818}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 882661370}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &247019608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247019606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e6bfebc9d753c4da66ab378083c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogTMP: {fileID: 882661372}
+  messageContainer: {fileID: 882661371}
+  velocidadEscritura: 0.08
+  velocidadCambio: 1
+  textElements:
+  - Dirigete a Chilpancingo y asegurate de que Morelos no tenga contratiempos en
+    declarar America
+  - "como independiente de la monarqu\xEDa espa\xF1ola"
+  endPoint: 0
+--- !u!61 &247019609
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247019606}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.06463075, y: 0.38314846}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.97, y: 0.98}
+    newSize: {x: 0.94, y: 0.91}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.762804, y: 2.498735}
+  m_EdgeRadius: 0
+--- !u!212 &247019610
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247019606}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -85586731
+  m_SortingLayer: 7
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f26fa8880b3aeef4b8516c82dc12f2a5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.94, y: 0.91}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &252266319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1804,6 +1935,141 @@ SpriteShapeRenderer:
   m_LocalAABB:
     m_Center: {x: -2.904494, y: 0.21558172, z: 0}
     m_Extent: {x: 1.2594664, y: 1.1705067, z: 0}
+--- !u!1 &369239631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 369239632}
+  - component: {fileID: 369239635}
+  - component: {fileID: 369239634}
+  - component: {fileID: 369239633}
+  m_Layer: 10
+  m_Name: Message Detector (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &369239632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369239631}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 206.19, y: 27.74, z: 0.16356818}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 882661370}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &369239633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369239631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e6bfebc9d753c4da66ab378083c92a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogTMP: {fileID: 882661372}
+  messageContainer: {fileID: 882661371}
+  velocidadEscritura: 0.08
+  velocidadCambio: 1
+  textElements:
+  - "Morelos convoc\xF3 a un congreso en Chilpancingo"
+  - "(Congreso de An\xE1huac) el 14 de septiembre de 1813, que se encargar\xEDa del
+    gobierno. En \xE9l"
+  - "se declar\xF3 que Am\xE9rica era independiente de Espa\xF1a y de la monarqu\xEDa,
+    con leyes iguales"
+  - "para todos los habitantes, y se promulg\xF3 la Constituci\xF3n de Apatzing\xE1n
+    en 1814."
+  endPoint: 1
+--- !u!61 &369239634
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369239631}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.065975666, y: 0.4040767}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.97, y: 0.98}
+    newSize: {x: 0.94, y: 0.91}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.07555, y: 5.6452627}
+  m_EdgeRadius: 0
+--- !u!212 &369239635
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369239631}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -85586731
+  m_SortingLayer: 7
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: f26fa8880b3aeef4b8516c82dc12f2a5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.94, y: 0.91}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &377431448
 GameObject:
   m_ObjectHideFlags: 0
@@ -4032,6 +4298,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -85586731
       objectReference: {fileID: 0}
+    - target: {fileID: 4204472357794155666, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4780544310985993226, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
       propertyPath: m_SortingLayer
       value: 7
@@ -4039,6 +4309,30 @@ PrefabInstance:
     - target: {fileID: 4780544310985993226, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
       propertyPath: m_SortingLayerID
       value: -85586731
+      objectReference: {fileID: 0}
+    - target: {fileID: 5576125310354603875, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: m_Size.x
+      value: 5.8892083
+      objectReference: {fileID: 0}
+    - target: {fileID: 5576125310354603875, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: m_Size.y
+      value: 3.3846035
+      objectReference: {fileID: 0}
+    - target: {fileID: 5576125310354603875, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.6512115
+      objectReference: {fileID: 0}
+    - target: {fileID: 5576125310354603875, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.12093979
+      objectReference: {fileID: 0}
+    - target: {fileID: 5716482772271301045, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849427006596931111, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6768644842587429729, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
       propertyPath: m_Name
@@ -4046,27 +4340,65 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6768644842587429729, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776843129297274916, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: m_SortingLayer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776843129297274916, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -85586731
+      objectReference: {fileID: 0}
+    - target: {fileID: 6786584676559152779, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: m_SortingLayer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6786584676559152779, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -85586731
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446545461210424504, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: textElements.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446545461210424504, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: textElements.Array.data[0]
+      value: "Despu\xE9s de tomar las ciudades de Chilpancingo, Tixtla, Chilapa y
+        Chiautla, las fuerzas de..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446545461210424504, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: textElements.Array.data[1]
+      value: "Morelos entraron a Cuautla y al enterarse de la aproximaci\xF3n de
+        Calleja, empezaron a fortificar..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446545461210424504, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: textElements.Array.data[2]
+      value: "la ciudad. Despu\xE9s de un primer ataque, las tropas de Calleja fueron
+        repelidas, entonces el..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446545461210424504, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: textElements.Array.data[3]
+      value: "comandante espa\xF1ol decidi\xF3 imponer un sitio a la ciudad, que
+        comenz\xF3 el 19 de febrero de 1812..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446545461210424504, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: textElements.Array.data[4]
+      value: "Las fuerzas insurgentes resistieron un total de 72 d\xEDas, hasta que
+        el 2 de mayo los realistas"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446545461210424504, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: textElements.Array.data[5]
+      value: se dieron por vencidos, por lo que los primeros pudieron huir de la
+        ciudad.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555013118378639817, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+      propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776843129297274916, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
-      propertyPath: m_SortingLayer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6776843129297274916, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -85586731
-      objectReference: {fileID: 0}
-    - target: {fileID: 6786584676559152779, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
-      propertyPath: m_SortingLayer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6786584676559152779, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -85586731
       objectReference: {fileID: 0}
     - target: {fileID: 8490421689171144917, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8972520004076493818, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
       propertyPath: m_SortingLayer
@@ -4082,6 +4414,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+--- !u!4 &882661370 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4477839691080356172, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+  m_PrefabInstance: {fileID: 882661369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &882661371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8490421689171144917, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+  m_PrefabInstance: {fileID: 882661369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &882661372 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3931786080052771144, guid: 70f41451c5df4514a80ef6871dd18083, type: 3}
+  m_PrefabInstance: {fileID: 882661369}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1051037989
 GameObject:
   m_ObjectHideFlags: 0
@@ -25938,88 +26291,6 @@ PolygonCollider2D:
       - {x: 0.98037803, y: 0.8323818}
       - {x: 2.094861, y: 1.0585334}
       - {x: 2.0966864, y: 1.2568538}
---- !u!1 &2077755165
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2077755167}
-  - component: {fileID: 2077755166}
-  m_Layer: 0
-  m_Name: tree
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &2077755166
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077755165}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -85586731
-  m_SortingLayer: 7
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: da6a6286a0d4043d1b91c1d6f94bf1ef, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.13, y: 2.23}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &2077755167
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077755165}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.385, y: 4.939, z: 0}
-  m_LocalScale: {x: 0.79101, y: 0.79101, z: 0.79101}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2119731448
 GameObject:
   m_ObjectHideFlags: 0

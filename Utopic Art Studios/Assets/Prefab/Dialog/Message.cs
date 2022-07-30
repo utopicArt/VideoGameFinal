@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
 
@@ -69,12 +70,15 @@ public class Message : MonoBehaviour
                 dialogTMP.text += caracter;
                 yield return new WaitForSeconds(velocidadEscritura);//Espera entre mostrar caracteres
             }
+            Debug.Log("Siguiente mensaje");
             yield return new WaitForSeconds(velocidadCambio); //Espera entre mensajes
         }
+        Debug.Log("El End Point es " + endPoint);
         if (endPoint)
         {
+            Debug.Log("Entro al if");
             yield return new WaitForSeconds(3f); //Espera para finalizar el nivel
-            Debug.Log("Salir al menu principal");
+            SceneManager.LoadScene(0);
         }
     }
 }

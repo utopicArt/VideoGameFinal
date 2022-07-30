@@ -65,15 +65,12 @@ public class PlatformY : MonoBehaviour
 		}
 
 		// At this point, i've reached the target, let's set our position to the target's one
-		Debug.Log("Target reached");
 		transform.position = new Vector2(_target.transform.position.x, transform.position.y);
 
 		// And let's wait for a moment
-		Debug.Log("Waiting for " + waitingTime + " seconds");
 		yield return new WaitForSeconds(waitingTime); // IMPORTANT
 
 		// once waited, let's restore the patrol behaviour
-		Debug.Log("Waited enough, let's update the target and move again");
 		UpdateTarget();
 		StartCoroutine("PatrolToTarget");
 	}
