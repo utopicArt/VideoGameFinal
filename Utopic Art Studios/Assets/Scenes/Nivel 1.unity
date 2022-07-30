@@ -8937,6 +8937,7 @@ MonoBehaviour:
   velocidadCambio: 1
   textElements:
   - ' Felicidades, has llegado al final del nivel'
+  - Ahora conoces el desenlace del Grito de Dolores.
   endPoint: 1
 --- !u!61 &921830941
 BoxCollider2D:

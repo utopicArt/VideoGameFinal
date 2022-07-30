@@ -12609,7 +12609,9 @@ MonoBehaviour:
   velocidadEscritura: 0.08
   velocidadCambio: 1
   textElements:
-  - ' '
+  - Lograste llegar al final...
+  - "Ahora conoces como ocurri\xF3 el degradaci\xF3n y Fusilamiento de Miguel Hidalgo
+    y Costilla"
   endPoint: 1
 --- !u!61 &893297845
 BoxCollider2D:
