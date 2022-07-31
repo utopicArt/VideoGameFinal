@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     private bool _facingRight = true;
     private bool _isGrounded;
     private bool _playerFell;
+    private bool _stopTimer = false;
 
     private bool _isAttacking;
     private Vector3 _absolutePosition;
@@ -120,8 +121,11 @@ public class PlayerController : MonoBehaviour
 
     private void checkTimeOut()
     {
-        time -= Time.deltaTime; // El valor sera negativo dado que hay un tiempo de espera
-                                // para que finalice la animacion
+        if (_stopTimer == false)
+        {
+            time -= Time.deltaTime; // El valor sera negativo dado que hay un tiempo de espera
+                                    // para que finalice la animacion
+        }
         if (time > 0)
         {
             textMeshPro.text = "Tiempo restante: " + Mathf.Round(time).ToString() + " segundos";
@@ -146,14 +150,9 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Cliff"))
         {
             _playerFell = true;
-        }
-        else if (collision.gameObject.layer == LayerMask.NameToLayer("Cliff"))
+        }else if (collision.gameObject.CompareTag("EndPoint"))
         {
-            GameObject message = GameObject.Find("Board Container");
-            if (message != null)
-            {
-
-            }
+            _stopTimer = true;
         }
     }
 
