@@ -150,8 +150,14 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Cliff"))
         {
             _playerFell = true;
-        }else if (collision.gameObject.CompareTag("EndPoint"))
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("EndPoint"))
         {
+            Debug.Log("Mensaje final");
             _stopTimer = true;
         }
     }

@@ -1715,7 +1715,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogTMP: {fileID: 1173437421}
   messageContainer: {fileID: 1173437420}
-  velocidadEscritura: 0.1
+  velocidadEscritura: 0.06
   velocidadCambio: 1
   textElements:
   - "Los soldados norteamericanos que acompa\xF1aban a Mina, desertaron y regresaron
@@ -1723,13 +1723,13 @@ MonoBehaviour:
   - "Por lo tanto, Xavier decidi\xF3 continuar con la causa y obtuvo importantes
     \xE9xitos en sus batallas."
   - El 24 de junio Mina y sus fuerzas se unieron a los insurgentes dirigidos por
-    Pedro Moreno en la
-  - "zona del Baj\xEDo novohispano. "
+    Pedro Moreno
+  - "en la zona del Baj\xEDo novohispano. "
   - "Javier Mina atac\xF3 Guanajuato la noche del 24 de octubre, pero sus tropas
-    fueron dispersadas. Al verse "
-  - derrotados, Mina y Moreno huyeron al "Rancho del Venadito", donde fueron atacados
-    a las siete de
-  - "la ma\xF1ana del 27 de octubre. En la refriega, Mina y Moreno resultaron prisioneros. "
+    fueron dispersadas."
+  - Al verse derrotados, Mina y Moreno huyeron al "Rancho del Venadito", donde...
+  - "fueron atacados a las siete de la ma\xF1ana del 27 de octubre."
+  - En la refriega, Mina y Moreno resultaron prisioneros.
   - Mina fue encadenado y Moreno fue decapitado inmediatamente.
   endPoint: 0
 --- !u!61 &174039564
@@ -2190,7 +2190,7 @@ MonoBehaviour:
   velocidadCambio: 1
   textElements:
   - "Por aqu\xED no llegaras muy lejos"
-  endPoint: 1
+  endPoint: 0
 --- !u!61 &228078652
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4742,7 +4742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogTMP: {fileID: 1173437421}
   messageContainer: {fileID: 1173437420}
-  velocidadEscritura: 0.08
+  velocidadEscritura: 0.05
   velocidadCambio: 1
   textElements:
   - ' Felicidades Huitzil, terminaste el nivel!'
@@ -4755,6 +4755,7 @@ MonoBehaviour:
   - "La muerte de Morelos luego de cinco a\xF1os en la guerra de Independencia de
     M\xE9xico"
   - Y la dura etapa de resistencia de la independencia de Mexico
+  - "Ahora conoces los hechos que cambiaron a M\xE9xico."
   endPoint: 1
 --- !u!61 &460962901
 BoxCollider2D:
@@ -5554,7 +5555,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.386, y: -6.627, z: -10}
+  m_LocalPosition: {x: -8.391, y: -6.685, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1906957365}
@@ -14720,6 +14721,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5341736668420539844, guid: 43d35031515d7ab4197783eb3f60f04f, type: 3}
+      propertyPath: m_TagString
+      value: EndPoint
+      objectReference: {fileID: 0}
     - target: {fileID: 5518255800257880772, guid: 43d35031515d7ab4197783eb3f60f04f, type: 3}
       propertyPath: time
       value: 300
@@ -14754,11 +14759,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7999773907213723093, guid: 43d35031515d7ab4197783eb3f60f04f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.386
+      value: -8.391
       objectReference: {fileID: 0}
     - target: {fileID: 7999773907213723093, guid: 43d35031515d7ab4197783eb3f60f04f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.627
+      value: -6.685
       objectReference: {fileID: 0}
     - target: {fileID: 7999773907213723093, guid: 43d35031515d7ab4197783eb3f60f04f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15663,7 +15668,7 @@ MonoBehaviour:
   velocidadCambio: 1
   textElements:
   - "\xA1Date Prisa!"
-  endPoint: 1
+  endPoint: 0
 --- !u!61 &1619589922
 BoxCollider2D:
   m_ObjectHideFlags: 0
