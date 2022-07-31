@@ -12577,7 +12577,7 @@ GameObject:
   - component: {fileID: 893297844}
   m_Layer: 10
   m_Name: Message Detector (7)
-  m_TagString: Untagged
+  m_TagString: EndPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
