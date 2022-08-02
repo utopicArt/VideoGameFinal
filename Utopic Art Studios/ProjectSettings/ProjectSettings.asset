@@ -20,7 +20,7 @@ PlayerSettings:
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
-  m_SplashScreenAnimation: 0
+  m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 1
   m_SplashScreenDrawMode: 1
   m_SplashScreenBackgroundAnimationZoom: 1
@@ -46,6 +46,8 @@ PlayerSettings:
     duration: 3
   - logo: {fileID: 21300000, guid: 6a103cc065f0eb64dab1d376438bcb54, type: 3}
     duration: 2
+  - logo: {fileID: 21300000, guid: eb0dadd016f90784cbf5a275c48cf8df, type: 3}
+    duration: 5
   m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 4d0a9196999ee01408f86914ac1c1236, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
@@ -140,7 +142,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0.7
+  bundleVersion: 1.0.11
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
